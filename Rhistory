@@ -1,0 +1,8 @@
+library(shiny); runApp('IBM data.R')
+install.packages("plotly")
+install.packages("rvest")
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("quantmod")
+install.packages("shiny")
+install.packages("igraph")
