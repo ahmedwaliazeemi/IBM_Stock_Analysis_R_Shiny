@@ -1,4 +1,4 @@
-📊 IBM Stock Analysis and Market Risk Visualizer (R/Shiny)
+<h1>📊 IBM Stock Analysis and Market Risk Visualizer (R/Shiny)</h1>
 
 🎯 Project Overview
 
