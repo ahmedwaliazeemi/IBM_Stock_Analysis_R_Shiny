@@ -17,13 +17,18 @@ Financial Modeling: Focuses on modeling how external pressures translate into in
 
 🛠️ Technology Stack
 
+# Core Language
 Language: R
 
+# Data & Analysis Packages
 Data Fetching: quantmod (Yahoo Finance)
+Visualization: ggplot2 (Time Series)
+Network Diagram: visNetwork
 
-Visualization: ggplot2 (Time Series) and visNetwork (Network Diagram)
-
+# Web Deployment
 Deployment: shiny (Interactive Web App)
+
+
 
 🚀 How to Run the App Locally
 
