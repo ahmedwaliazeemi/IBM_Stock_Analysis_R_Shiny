@@ -1,30 +1,91 @@
-IBM Stock Price Analysis and Market Influence Visualizer (R/Shiny)
+📊 IBM Stock Analysis & Market Risk Visualizer (R/Shiny)
 
-Project Summary:
-This project analyzes IBM stock data (2022-2024) using R and the quantmod package. The core deliverable is an interactive Shiny web application that utilizes visNetwork to visualize market cause and effect. The app demonstrates a chain reaction: how factors like missed earnings or interest rates can lead to a stock drop, investor panic, and a necessary company change (strategic pivot).
+🎯 Project Overview
 
-Key Features
-Time Series Analysis: Tracks and plots IBM's adjusted stock price data from 2022 to 2024.
+This project provides a financial time series analysis of IBM stock data (2022-2024) using R. The core deliverable is an interactive Shiny web application that visualizes complex market cause and effect relationships using a network diagram.
 
-Interactive Visualization: An R/Shiny dashboard that maps complex financial relationships, showing the direct linkage from root causes to final business outcomes like strategic pivots or layoffs.
+The goal is to clearly show the chain reaction:
+Missed Earnings ➡️ Investor Panic ➡️ Stock Drop ➡️ Strategic Pivot/Layoffs
 
-Core R Packages: quantmod, ggplot2, shiny, and visNetwork.
+✨ Key Features
 
-Files in this Repository
-IBM data.R
-The main R script containing all code: data fetching, time series plotting, and the complete shiny application code.
+Feature
 
-RData.gz
-Compressed R workspace data to ensure the environment can be fully restored.
+Description
 
-Rhistory
-A record of the commands executed, providing transparency on the project's development steps.
+Tools Used
 
-How to Run the Project (R Users)
-To run the interactive application, you must have R and RStudio installed.
-Install Required Packages: Open your R console and run the following command to install all necessary dependencies:
+Time Series Plot
+
+Cleanly plots IBM's adjusted stock price over time (2022-2024) for trend identification.
+
+quantmod, ggplot2
+
+Interactive Network
+
+A dynamic network diagram demonstrating causal linkages between financial and business factors.
+
+shiny, visNetwork
+
+Financial Modeling
+
+Focuses on modeling how external pressures translate into internal corporate action.
+
+R
+
+🛠️ Technology Stack
+
+Category
+
+Tool / Package
+
+Language
+
+R
+
+Data Fetching
+
+quantmod (Yahoo Finance)
+
+Visualization
+
+ggplot2 (Time Series), visNetwork (Network Diagram)
+
+Deployment
+
+shiny (Interactive Web App)
+
+🚀 How to Run the App Locally
+
+To test the interactive Shiny app, you will need R and RStudio installed.
+
+Clone the Repository:
+
+git clone [https://github.com/your-username/IBM_Stock_Analysis_R_Shiny.git](https://github.com/your-username/IBM_Stock_Analysis_R_Shiny.git)
+cd IBM_Stock_Analysis_R_Shiny
+
+
+Install Packages: Run this command in your R console:
 
 install.packages(c("quantmod", "ggplot2", "visNetwork", "shiny"))
 
-Open the Script: Load the IBM data.R file into RStudio.
-Execute the Script: Run the entire script. This will first generate the static stock price plot and then automatically launch the interactive Shiny app in your default web browser, displaying the cause and effect network.
+
+Execute the Script: Open the IBM data.R file in RStudio and click the "Run App" button, or run the entire script. The time series plot will generate, and the interactive network visualizer will launch in your browser.
+
+📂 Repository Contents
+
+File
+
+Purpose
+
+IBM data.R
+
+Primary R script containing all data fetching, analysis, and the full Shiny app code.
+
+RData.gz
+
+R workspace snapshot for easy state restoration.
+
+Rhistory
+
+Command history log showing the project development steps.
